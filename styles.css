@@ -1,0 +1,40 @@
+
+
+
+.content_align {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-left: 10px; */
+}
+
+.content_margin{
+
+    margin-left: 20%;
+}
+.content_scale{
+    transition: transform 0.3s ease-in-out;
+}
+.content_scale:hover{
+
+    transform: scale(1.07);
+}
+
+@media (max-width: 766px) {
+    
+    .content_scale{
+
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
+
+/* @media (max-width: 766px) {
+    
+    .content_align{
+
+        margin-top: 50%;
+    }
+} */
